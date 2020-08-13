@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    /*background: url(/images/water.jpg) center center no-repeat;
+    background-size: cover;*/
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    background-color: #7D1538;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 8rem;
+    width: 30rem;
+    height: 30rem;
+    border: 2px solid #eef1ef;
+    border-radius: .2;
+    /*box-shadow: 0rem .5rem .5rem black;*/
+    transition: all .2s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+    box-shadow: 0rem .5rem .5rem black;
+}
+
+.button {
+    margin-top: 2rem;
+    background-color: #eef1ef;
+    border: .2rem solid lightgrey;
+    border-radius: 0.12em;
+    width: 6rem;
+    height: 3rem;
+    outline: none;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0rem .2rem .2rem black;
+}
+
+#quoteDisplay {
+    margin: 2rem 1rem;
+}
+
+#date {
+    margin-top: 1rem;
+    color: #eef1ef
+}
+
+#header-text {
+    margin-top: 1rem;
+}
+
+#date-display {
+    margin-top: 2rem;
+}
+
+#quote-marks {
+    width: 350px;
+    height: auto;
+    margin-top: 1rem;
+}
+
+
+
